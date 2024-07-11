@@ -266,5 +266,10 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
     })
 
+    it.only('fillInAllFields',function(){
+        cy.fillInAllFields()
+        
+    })
+
 
 })
